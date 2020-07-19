@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+<head>
+    <title>100ravpatel.co.in</title>
+    <link rel="stylesheet" href="D:\program\jquery\dom4.css">
+</head> 
+<body>
+    <button id=btn1>addClass</button>
+    <button id=btn2>removeClass</button>
+    <button id=btn3>toggleClass</button>
+    <button id=btn4>css</button>
+    <div id="div1" class="para">
+        <p class="div1"> first div </p>
+    </div>
+    
+</body>
+<script src="D:\program\js\jquery.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+
+         $("#btn1").click(function(){
+           $("#div1").addClass("newpara");
+   });
+   $("#btn2").click(function(){
+           $("#div1").removeClass("newpara");
+   });
+   $("#btn3").click(function(){
+           $("#div1").toggleClass("newpara");
+   });
+   $("#btn4").click(function(){
+          alert($("#div1").css("font-family"));
+   });
+
+    });
+
+</script>
+
+
+
+
+
+
+</html>

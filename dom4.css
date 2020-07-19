@@ -1,0 +1,16 @@
+.div1{
+    border:2px solid red;
+    margin: 5px;
+    padding: 2px;
+    height: 30px;
+}
+.newpara{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color:aqua;
+}
+.div3{
+    border:2px solid red;
+    padding: 3px;
+    
+}
